@@ -25,31 +25,61 @@
             </ul>
         </div>
     </nav>
-    <!-- <div class="wrapper">
-        <div class="hero">
-          <div class="slice left">
-            <div class="text">
-              <h1>» New Applicants</h1>
-                <div class="abstract">
-                <a href="https://leeu.my.site.com/onlineapplication/" target="_blank">Start Your Application »</a><br>  
-                <a href="https://www.leeuniversity.edu/undergraduate/admissions-requirements/" target="_blank">Admission Requirements »</a><br> 
-                <a href="https://www.leeuniversity.edu/financial-aid/" target="_blank">Financial Aid »</a>  
-              </div>
-            </div>
-            <img class="students-img" src="https://www.leeuniversity.edu/wp-content/uploads/new-student.png">
-          </div>
-        
-          <div class="slice right">
-            <div class="text">
-              <h1>» Returning Applicants</h1>
-                <div class="abstract">
-                <a href="https://leeu.my.site.com/onlineapplication/" target="_blank">Continue Application »</a><br>  
-              </div>
-            </div>
-            <img class="students-img" src="https://www.leeuniversity.edu/wp-content/uploads/returning-students.png">
-          </div>
+<div class="container_apply">
+  <div class="apply_box">
+    <h1>Apply Now</h1>
+    <!-- <span class="title_small">(Here)</span> -->
+    <Form action="">
+      <div class="form_container">
+        <div class="form_control">
+          <label for="first_name">First Name</label>
+          <input id="first_name" name="first_name" placeholder="Enter First Name" required type="text">
         </div>
-        </div> -->
+        <div class="form_control">
+          <label for="last_name">Last Name</label>
+          <input id="last_name" name="first_name" placeholder="Enter Last Name" required type="text">
+        </div>
+        <div class="form_control">
+          <label for="email">Email</label>
+          <input id="email" name="email" placeholder="Email" required type="text">
+        </div>
+        <div class="form_control">
+          <label for="eductation">Qualification</label>
+          <select name="education" id="education" required >
+            <option value="">Select Qualification</option>
+            <option value="12th">12th</option>
+            <option value="Diploma">Diploma</option>
+            <option value="Graduation">Graduation</option>
+            <option value="Post Graduation">Post Graduation</option>
+          </select>
+        </div>
+          <div class="textarea_control">
+            <label for="address">Address</label>
+            <textarea name="address" id="address" rows="3" cols="30" placeholder="Enter Address" required></textarea>
+          </div>
+          <div class="form_control">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="Enter City Name" required >
+          </div>
+          <div class="form_control">
+            <label for="pincode">Pincode</label>
+            <input type="text" id="pincode" name="pincode" placeholder="Enter Pincode" required>
+          </div>
+          <div class="form_control">
+            <label for="date">D.O.B</label>
+            <input  value="1999-01-01" type="date" id="date" name="date" required>
+          </div>
+          <div class="form_control">
+            <label for="upload">Upload Resume</label>
+            <input type="file" id="upload" name="upload" required>
+          </div>
+          <div class="button_container">
+            <button type="submit">Apply Now</button>
+          </div>
+      </div>
+    </Form>
+  </div>
+</div>
 </body>
 
 </html>
