@@ -7,6 +7,8 @@ Install the below packages:
 5. npm install -g nodemon(start nodemon : nodemon app)
 6. 
 
+
+
 To pull the code :  
 
 ssh -keygen  
@@ -19,4 +21,6 @@ cat id_rsa.pub
 
 
 git clone <sssh key>  
+
+
 

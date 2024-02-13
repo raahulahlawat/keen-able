@@ -67,24 +67,26 @@
                 </div>
             </div>
             <div class="contactForm">
-                <form action="">
+                <form action="https://api.web3forms.com/submit" method="POST">
                     <h2>Send Message</h2>
+                    <input type="hidden" name="access_key" value="36e13aae-11ab-421e-afbc-9849f7b553a1">
                     <div class="inputBox">
-                        <input type="text" name="" required="required">
+                        <input type="text" name="name" required="required">
                         <span>Full Name</span>
                     </div>
                     <div class="inputBox">
-                        <input type="text" name="" required="required">
+                        <input type="text" name="email" required="required">
                         <span>Email</span>
                     </div>
                     <div class="inputBox">
-                        <textarea name="" id="" required="required "></textarea>
+                        <textarea name="message" required="required "></textarea>
                         <span>Type your Message...</span>
                     </div>
                     <div class="inputBox">
                         <input type="submit" name="" value="Send">
                     </div>
                 </form>
+
             </div>
         </div>
     </section>

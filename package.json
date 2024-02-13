@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "rahul devender brijesh singh raj shakya sumit chaubey",
+  "author": "rahul_ahlawat devender brijesh singh sumit chaubey",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
