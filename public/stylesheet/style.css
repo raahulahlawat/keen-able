@@ -6,14 +6,17 @@ body {
 
 nav {
     height: 100px;
-    background-color: #f5efef;
+    background-color: rgb(129, 201, 181);
     color: white;
-    /* padding: 10px; */
+    /* padding-right: 25px; */
+    position: sticky;
+    width: 100%;
+    z-index: 100;
 }
 
 nav ul {
     list-style-type: none;
-    margin-left: 60%;
+    margin-left: 50%;
     padding: 0;
     display: flex;
 }
@@ -24,17 +27,20 @@ nav img{
 }
 
 nav li {
-    margin-right: 30px;
-    margin-top: -70px;
+    margin-right: 50px;
+    margin-top: -60px;
+    /* padding: 10px; */
 }
 
 nav li a{
     color: rgb(4, 20, 20);
     text-decoration: none;
+    padding: 20px;
+    margin-right: 40px;
 }
 
 nav li a:hover{
-    color: rgb(37, 235, 235);
+    color: rgb(235, 37, 37);
 
 }
 
@@ -521,9 +527,9 @@ background-size: cover;
   /* margin: 0 auto; */
   display: flex;
   position: relative;
-  margin-left: 1200px;
+  margin-left: 1100px;
   margin-bottom: 20px;
-  /* margin-top: 150px; */
+  margin-top: -50px;
 }
 .apply_up{
   margin-top: 50px;
@@ -532,10 +538,14 @@ background-size: cover;
 .image2{
   position: relative;
   display: flex;
-  margin-left: -1100px;
-  height: 550px;
+  margin-left: -950px;
+  height: 600px;
+  /* padding-right: 50px; */
+  margin-right: 65px;
   margin-top: 150px;
-  box-shadow: 8px 8px rgb(255, 255, 255);
+  box-shadow: 8px 8px rgb(31, 30, 30);
+  border-radius: 10px;
+  width: 850px;
 }
 form{
   /* position: absolute; */
@@ -544,24 +554,24 @@ form{
 }
 
 .apply_box{
-  max-width: 600px;
+  /* max-width: 1000px; */
+  width: 600px;
   padding: 20px;
-  background-color: white;
-  margin: 0 auto;
-  margin-top: 150px;
+  background-color: rgb(255, 255, 255, 0.25);
+  /* margin: 0 auto; */
+  margin-top: 100px;
   box-shadow: 4px 3px 5px rgba(1,1,1,0,1);
-  border-radius: 15px;
-  text-align: center;
-  margin-bottom: 25px;
+  border-radius: 10px;
+  /* text-align: center; */
+  /* margin-bottom: 15px; */
 }
 
 .form_container{
-  /* padding: 10px; */
-  margin-top: 20px;
-  /* display: grid; */
+  padding: 10px;
+  /* margin-top: 20px;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  
+  gap: 20px; */
 }
 .form_control{
   display: flex;
@@ -577,9 +587,10 @@ input,
 select,
 textarea
 {
-  padding: 6px 10px;
-  border: 1px solid #ccc;
-  font-size: 15px;
+  padding: 10px 12.5px;
+  width: 500px;
+  /* border: 1px solid #ccc; */
+  font-size: 20px;
 }
 input:focus{
   outline-color: rgb(38,0,255)
@@ -590,21 +601,21 @@ input:focus{
   margin-top: 20px;
   /* justify-content: center;
   align-items: center; */
-  margin-right: -50px;
+  /* margin-right: 50px; */
 }
 button{
   background-color: rgb(0,47,255);
-  border: transparent;
-  padding: 10px 100px;
+  /* border: transparent; */
+  padding: 10px 15px;
   color: white;
-  border-radius: 5px;
-  margin-right: 80px;
+  border-radius: 20px;
+  /* margin-right: 80px; */
   /* transition: 0.3s ease-in; */
 }
 
 button:hover{
   background-color: #ccc;
-  border: 2px solid rgb(0,47,255);
+  border: 2px solid rgb(110, 124, 187);
   color: black;
   /* transition: 0.3s ease-out; */
   cursor: pointer;
@@ -618,6 +629,79 @@ button:hover{
 .textarea_control textarea{
   width: 100%;
 }
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+} */
+
+.apply_heading{
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.apply_p{
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.apply_ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.apply_li {
+  margin-bottom: 5px;
+}
+
+.apply_a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.apply_heading {
+  margin-top: 35px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.apply_p {
+  font-size: 1.2em;
+  text-align: center;
+}
+.apply_li {
+  padding: 5px 10px;
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: inline-flex;
+  margin-left: 25px;
+}
+.apply_a{
+  background-color: #007bff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+.apply_headings{
+  margin-top: 25px;
+  margin-left: 25px;
+  /* margin-bottom: -50px; */
+}
+
+/* a:hover {
+  background-color: #0062cc;
+} */
+
+/* Additional styles for specific sections (optional) */
+
 
 /* program page CSS */
 
